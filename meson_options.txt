@@ -1,0 +1,4 @@
+option('enable_tests', type: 'boolean', value: true, description: 'Build tests')
+option('enable_benchmarks', type: 'boolean', value: false, description: 'Build benchmarks')
+option('enable_examples', type: 'boolean', value: true, description: 'Build examples')
+option('atom_cuda_arch', type: 'string', value: 'sm_75', description: 'CUDA architecture')
